@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
     background: rgb(250, 250, 250);
     color: #fff;
+    transition: .8s all;
 }
 
 input {
@@ -33,9 +34,11 @@ input {
     justify-content: center;
     margin: 30px;
 }
+
 #pg-heading{
     font-size: 1.8rem;
 }
+
 .lock-icon {
     width: 20px;
     height: 20px;
@@ -113,7 +116,7 @@ input {
 
 .pass-indicator#strong::before {
     width: 100%;
-    background: #5d00ff;
+    background: rgb(59, 233, 59);
 }
 
 .wrapper .pass-length {
@@ -175,5 +178,5 @@ input {
     padding: 0.94rem 0;
     border-radius: 5px;
     text-transform: uppercase;
-    margin: 0.94rem 0 1.3rem;
+    margin: 1rem 0 1.5rem ;
 }
